@@ -13,4 +13,25 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="C:\Users\Machine\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-grid.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\Machine\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap-reboot.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\Machine\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\css\bootstrap.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="C:\Users\Machine\.nuget\packages\bootstrap\4.5.2\contentFiles\any\any\wwwroot\js\bootstrap.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
